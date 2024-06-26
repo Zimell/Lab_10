@@ -93,7 +93,7 @@ namespace Lab_10
                     if (N[j, 11 - i] < 0)
                     {
                         countt++;
-                        A[j] = countt;
+                        A[] = countt;
                     }
                 }
 
@@ -125,6 +125,5 @@ namespace Lab_10
             }
             Console.WriteLine($"Количество элементов в левой половине: {Min_count}\nМинимальный элемент всей матрицы: {Min}");
         }
-    }
     }
 }
